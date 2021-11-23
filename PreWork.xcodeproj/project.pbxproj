@@ -16,6 +16,7 @@
 		1BE5D1C32743616D001A11EB /* PreWorkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE5D1C22743616D001A11EB /* PreWorkTests.swift */; };
 		1BE5D1CD2743616D001A11EB /* PreWorkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE5D1CC2743616D001A11EB /* PreWorkUITests.swift */; };
 		1BE5D1CF2743616D001A11EB /* PreWorkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE5D1CE2743616D001A11EB /* PreWorkUITestsLaunchTests.swift */; };
+		1BE5D1DC274B195B001A11EB /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE5D1DB274B195B001A11EB /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		1BE5D1C82743616D001A11EB /* PreWorkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PreWorkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BE5D1CC2743616D001A11EB /* PreWorkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreWorkUITests.swift; sourceTree = "<group>"; };
 		1BE5D1CE2743616D001A11EB /* PreWorkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreWorkUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1BE5D1DB274B195B001A11EB /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				1BE5D1AD2743616B001A11EB /* SceneDelegate.swift */,
 				1BE5D1AF2743616B001A11EB /* ViewController.swift */,
 				1BE5D1B12743616B001A11EB /* Main.storyboard */,
+				1BE5D1DB274B195B001A11EB /* SettingsViewController.swift */,
 				1BE5D1B42743616D001A11EB /* Assets.xcassets */,
 				1BE5D1B62743616D001A11EB /* LaunchScreen.storyboard */,
 				1BE5D1B92743616D001A11EB /* Info.plist */,
@@ -261,6 +264,7 @@
 				1BE5D1B02743616B001A11EB /* ViewController.swift in Sources */,
 				1BE5D1AC2743616B001A11EB /* AppDelegate.swift in Sources */,
 				1BE5D1AE2743616B001A11EB /* SceneDelegate.swift in Sources */,
+				1BE5D1DC274B195B001A11EB /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,6 +443,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DEN4ER93N3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PreWork/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -451,7 +456,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = CodePath.PreWork;
+				PRODUCT_BUNDLE_IDENTIFIER = CodePath.PreWorkIOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -466,6 +471,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DEN4ER93N3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PreWork/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -478,7 +484,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = CodePath.PreWork;
+				PRODUCT_BUNDLE_IDENTIFIER = CodePath.PreWorkIOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
